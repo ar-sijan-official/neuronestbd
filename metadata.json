@@ -1,0 +1,6 @@
+{
+  "name": "NeuroNest",
+  "description": "A comforting, reliable resource and support platform for parents of neurodivergent children in Bangladesh, providing access to support centers, therapy tools, and government guides.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

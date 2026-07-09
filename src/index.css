@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Hind Siliguri", "Poppins", "Inter", system-ui, -apple-system, sans-serif;
+  --font-display: "Poppins", "Hind Siliguri", sans-serif;
+  --color-brand-yellow: #FFC400;
+  --color-brand-green: #2E7D32;
+  --color-brand-dark: #212529;
+  --color-brand-soft: #FAF9F6;
+}
+
+/* Custom scrollbar matching NeuroNest theme */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f5f5f4;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d6d3d1;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a29e;
+}
+
+/* Smooth page and element transitions */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Accent highlight and scale utilities */
+.hover-scale-102:hover {
+  transform: scale(1.02);
+}
+
+.hover-scale-105:hover {
+  transform: scale(1.05);
+}
